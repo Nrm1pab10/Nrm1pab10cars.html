@@ -1,0 +1,41 @@
+.parent{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    height:1200px;
+    padding:50px;
+    background-color: yellow;
+    gap:25px;
+}
+.child{
+    background: green;
+    text-align: center;
+    color: orangered;
+    font-family: trebuchet ms;
+    font-size: 50px;
+    border-radius:25px;
+}
+table, th, td{
+    background-color: yellowgreen; 
+    color: red; 
+    font-style: oblique; 
+    font-size: 30px; 
+    font-family: geneva;
+    text-shadow: 50px black;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+.header-parent{
+    display: flex;
+    align-items: stretch;
+    background: blue;
+}
+
+.header-child{
+    background: yellow;
+    color: red;
+    margin: 10px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 30px;
+}
